@@ -1,0 +1,55 @@
+/*Background*/
+.pageOne {
+    background: url("../assets/backgrounds/Mondstadt.webp");
+    background-size: cover;
+    height: 100vh;
+}
+
+.pageTwo {
+    background: url("../assets/backgrounds/Liyue.webp");
+    background-size: cover;
+    height: auto;
+}
+
+.pageThree {
+    background: url("../assets/backgrounds/Inazuma.webp");
+    background-size: cover;
+    height: auto;
+}
+
+.pageFour {
+    background: url("../assets/backgrounds/Sumeru.webp");
+    background-size: cover;
+    height: auto;
+}
+
+/* Intro */
+.intro {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.intro-text{
+    color: rgb(27, 39, 43);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px white;
+    letter-spacing: 5px;
+}
+
+.charImage {
+    margin: 5px;
+    padding: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.returnButton {
+    color: white;
+    margin-left: 10px;
+}
